@@ -1,24 +1,38 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
+const app = document.querySelector('#app')
+
+app.innerHTML = `
+  <section class="section section1">
+    <div class="section-content">
+      <h1>Benjamin J.</h1>
+      <div class="social-links">
+        <a href="#" target="_blank">GitHub</a>
+        <a href="#" target="_blank">LinkedIn</a>
+      </div>
+      <p>Email: placeholder@email.com</p>
+      <button class="download-cv">Download CV</button>
     </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
+  </section>
 
-setupCounter(document.querySelector('#counter'))
+  <section class="section section2">
+    <div class="section-content">
+      <h2>About Me</h2>
+      <p>Hi, my name is Ben. Junior software developer with a degree in Criminology. Specializing in HTML, CSS, JavaScript, and learning React, Node.js, Express, GitHub, and Agile methodology.</p>
+    </div>
+  </section>
+
+  <section class="section section3">
+    <div class="section-content">
+      <h2>Projects</h2>
+      <p>Project section placeholder.</p>
+    </div>
+  </section>
+
+  <section class="section section4">
+    <div class="section-content">
+      <h2>Contact</h2>
+      <p>Email, GitHub, LinkedIn placeholders.</p>
+    </div>
+  </section>
+`
