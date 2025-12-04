@@ -1,4 +1,4 @@
-##Hi! I’m Benjamin 👋
+Hi! I’m Benjamin 👋
 
 I'm a Junior Developer, working with front-end software. I have a BSc in Criminology, and I love making things.
 I completed TechNative Academy's 8 week boot camp, and have ben using HTML, CSS, JS, Node.js, Express, and React. 
